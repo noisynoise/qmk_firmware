@@ -44,7 +44,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* RGB underglow */
 // The RGB_DI_PIN value seems to be shared between all PS2AVRGB boards.
 // The same pin is used on the JJ40, at least.
-#define RGBLED_NUM 5
+// #define RGBLED_NUM 5
+// DSL MAIS JE VOIS 8 LEDS SUR LE NP21
+#define RGBLED_NUM 7
 #define RGB_DI_PIN E2 // NOTE: for PS2AVRGB boards, underglow commands are sent via I2C to 0xB0.
 #define RGBLIGHT_ANIMATIONS
 
